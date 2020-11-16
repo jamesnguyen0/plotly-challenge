@@ -12,7 +12,7 @@ function buildPlots(sample) {
         sliceOtuIds = otuIDs.slice(0,10);
         sliceLabels = otuLabels.slice(0,10);
 
-        // reverese the array
+        // reverse the array
         reverseSample = sliceSampleValues.reverse();
         reverseOtuIds = sliceOtuIds.reverse();
 
@@ -85,7 +85,6 @@ function getData() {
 
     d3.json("samples.json").then(function(data) {
         var samples = data.names
-        //console.log(samples)
 
         samples.forEach((sample) => {
             dropDown.append("option").text(sample) 
