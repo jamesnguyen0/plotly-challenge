@@ -1,0 +1,10 @@
+.jumbotron {
+    background-image: url(/Belly_Button_Biodiversity/images/bacteria.jpg); 
+    background-size: cover
+}
+
+#jumbo_title,
+#jumbo_text {
+    color: white;
+    text-shadow: 2px 2px grey;
+}
